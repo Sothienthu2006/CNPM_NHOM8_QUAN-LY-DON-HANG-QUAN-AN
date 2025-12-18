@@ -13,6 +13,12 @@ Xây dựng hệ thống quản lí đơn hàng quán ăn giúp chủ quán và 
 - Nhân viên phục vụ
 - Nhân viên thu ngân
 
+ feature/menu-management
+## 👥 Thành viên nhóm
+- Họ và tên: Bùi Quang Vinh 
+- Mã sinh viên: 24S1020087
+- GitHub: https://github.com/quangvinh020906-byte
+- 
  feature/add-Long
 👥 Thành viên nhóm:
 1. Họ và tên:
@@ -26,3 +32,4 @@ Xây dựng hệ thống quản lí đơn hàng quán ăn giúp chủ quán và 
 - GitHub: https://github.com/sunlz1711980-arch
  main
 
+ main
