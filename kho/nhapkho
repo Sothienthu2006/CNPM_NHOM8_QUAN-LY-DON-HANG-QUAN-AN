@@ -1,0 +1,18 @@
+def nhap_kho():
+    print("\n--- NHẬP KHO ---")
+    ten = input("Tên nguyên liệu: ")
+    so_luong = float(input("Số lượng nhập: "))
+    don_vi = input("Đơn vị: ")
+
+    for nl in kho_nguyen_lieu:
+        if nl["ten"].lower() == ten.lower():
+            nl["so_luong"] += so_luong
+            print("✅ Đã cộng thêm vào kho!")
+            return
+
+    kho_nguyen_lieu.append({
+        "ten": ten,
+        "so_luong": so_luong,
+        "don_vi": don_vi
+    })
+    print("✅ Đã thêm nguyên liệu mới!")
