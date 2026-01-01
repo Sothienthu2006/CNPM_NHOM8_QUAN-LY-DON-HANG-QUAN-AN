@@ -1,0 +1,9 @@
+def bao_cao_doanh_thu_theo_thang():
+    thang = input("Nhập tháng (YYYY-MM): ")
+    tong = 0
+
+    for don in don_hang_list:
+        if don["ngay"].startswith(thang) and don["trang_thai"] == "Hoàn thành":
+            tong += don["tong_tien"]
+
+    print(f"📆 Doanh thu tháng {thang}: {tong} VNĐ")
